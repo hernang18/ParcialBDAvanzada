@@ -1,0 +1,6 @@
+CREATE USER amartinez
+IDENTIFIED BY amartinez
+DEFAULT TABLESPACE gofar_travel
+QUOTA 50M ON gofar_travel
+PROFILE comercial_medellin 
+ACCOUNT UNLOCK;
